@@ -15,8 +15,30 @@
 #container .hidden {
   display: none;
 }
-
+#container h1 {
+  text-align: center;
+  padding-top: 2em;
+  color: white;
+  font-size: 3em;
+}
+#container section#movieland {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+#container section#movieland form#movieform #search {
+  padding: 0.25em;
+  border-radius: 0.35em;
+  border-color: white;
+}
 ul {
   display: flex;
   width: 100%;
+}
+ul li {
+  font-family: "Orbitron", sans-serif;
+  color: white;
+  padding: 2em;
+  list-style: none;
 }/*# sourceMappingURL=style.css.map */

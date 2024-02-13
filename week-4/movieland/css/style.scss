@@ -18,14 +18,44 @@
     .hidden {
         display: none;
     }
+
+    h1 { 
+        text-align: center;
+        padding-top: 2em;
+        color: white;
+        font-size: 3em;
+    }
+
+    section#movieland {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1rem;
+        form#movieform {
+            #search {
+                padding: 0.25em;
+                border-radius: .35em;
+                border-color: white;
+            }
+            #submit {
+               
+                
+            }
+        }
+    }
 }
 
 ul {
     display: flex;
     width: 100%;
+    // align-items: center;
+    // margin: 0 auto;
+
     li {
-        // padding: 3em;
+        font-family: 'Orbitron', sans-serif;
+        color: white;
+        padding: 2em;
+        list-style: none;
+
     }
 }
-
-// use bootstrap for responsiveness
