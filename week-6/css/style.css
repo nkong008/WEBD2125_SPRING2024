@@ -152,7 +152,7 @@ body #container #landing div.panel svg#light {
   opacity: 0;
   transform: translateY(-200px);
 }
-body #container #landing div.panel p {
+body #container #landing div.panel p#para {
   position: relative;
   z-index: 2;
   clear: right;
@@ -161,6 +161,7 @@ body #container #landing div.panel p {
   color: #110066;
   opacity: 0;
   font-family: lemon-milk;
+  line-height: 1.5em;
 }
 body #container #landing div.panel div.box {
   border: 5px solid #90cbfb;

@@ -206,7 +206,7 @@ body {
                     opacity: 0; //bring back when adding tweenMax
                     transform: translateY(-200px); // add this after creating 
                 }
-                p {
+                p#para {
                     position: relative;
                     z-index: 2;
                     clear: right;
@@ -216,7 +216,7 @@ body {
                     // width: 80%;
                     opacity: 0; //bring back
                     font-family: $LemonMilk;
-
+                    line-height: 1.5em;
                 }
                 
                 div.box {
