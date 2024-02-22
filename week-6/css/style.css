@@ -173,4 +173,49 @@ body #container #landing div.panel div.box {
   opacity: 0%;
   z-index: 1;
   transform: scale(0);
+}
+body section#sticky {
+  height: 100vh;
+  padding: 3em;
+  position: relative;
+}
+body section#sticky blockquote {
+  position: absolute;
+  width: 30%;
+  margin-top: 17%;
+  font-size: 2em;
+}
+body section#sticky blockquote span {
+  width: 100%;
+  background: #3a1adb;
+  display: block;
+  height: 5px;
+  margin-top: 20px;
+}
+body section#sticky img.artshow {
+  position: absolute;
+}
+body section#sticky img#artshow1.artshow {
+  width: 640px;
+  height: auto;
+  right: 0;
+  top: 20%;
+}
+body section#sticky img#artshow2.artshow {
+  width: 480px;
+  height: auto;
+  right: 40%;
+  top: 30%;
+  margin-top: 10%;
+}
+body section#sticky .box {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border: 5px solid #919191;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }/*# sourceMappingURL=style.css.map */
