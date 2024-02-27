@@ -222,7 +222,8 @@ $(function () {
 
 
     // jQuery ends here
-    // scroll trigger demo
+    
+    // Scroll Trigger DEMO 
 
     let tl2 = gsap.timeline ({
         scrollTrigger: {
